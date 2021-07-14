@@ -102,7 +102,7 @@
 
     #top-section {
         padding-bottom: 0px;
-        min-height: 88vh;
+        min-height: auto;
     }
 
     #players,
@@ -212,7 +212,8 @@
     .inner-banner {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 63px 15px 0;
+        padding: 63px 0 0;
+        overflow: hidden;
     }
 
     .huge-title h1 {
