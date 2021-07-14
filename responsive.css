@@ -226,7 +226,11 @@
     .container.inner-banner {
         text-align: center;
     }
-
+    .logo1,
+    .logo {
+        max-width: 150px;
+        margin-bottom: 0;
+    }
     footer p {
         font-size: 15px;
     }
